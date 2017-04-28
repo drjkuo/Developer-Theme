@@ -265,24 +265,30 @@
     </div><!--//item-->
 
   </div><!--//content-->
+
 </div><!--//section-inner-->
 </section><!--//section-->
-<!--section class="github section">
-<div class="section-inner">
-<h2 class="heading">My GitHub</h2>
-<p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.
 
-<div id="github-graph" class="github-graph">
+<!-- <section class="github section"> -->
+<!-- <div class="section-inner"> -->
+<!-- <h2 class="heading">My GitHub</h2> -->
+<!-- <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.</p> -->
+<!-- <div class="calendar"> -->
+    <!-- Loading stuff -->
+<!-- </div> -->
 
-</div><!--//github-graph-->
+<!-- <div id="github-graph" class="github-graph"> -->
 
-<!--p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.
-<!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
-<!--div id="ghfeed" class="ghfeed">
-<!--/div><!--//ghfeed-->
+<!-- </div><!--//github-graph-->
 
-<!--/div><!--//secton-inner-->
-<!--/section><!--//section-->
+<!-- <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget. -->
+<!--Usage: http://caseyscarborough.com/projects/github-activity/-->
+<!-- <div id="ghfeed" class="ghfeed">
+</div><!--//ghfeed -->
+
+<!-- </div><!--//secton-inner-->
+<!-- </section><!--//section-->
+
 </div><!--//primary-->
 <div class="secondary col-md-4 col-sm-12 col-xs-12">
   <aside class="info aside section">
@@ -492,16 +498,29 @@
 <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
 <!--small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
 </div><!--//container-->
-<!--/footer><!--//footer--> -->
+<!--/footer><!--//footer-->
 
 <!-- Javascript -->
 <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+<script>
+    GitHubCalendar(".calendar", "drjkuo");
+</script>
 <!-- github calendar plugin -->
-<!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
-<script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+<script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
+
+
+
 <!-- github activity plugin -->
 <!--script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
 <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
