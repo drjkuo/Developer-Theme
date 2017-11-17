@@ -1,0 +1,78 @@
+{
+   "name":"Jim (Chia-yuan) Kuo",
+   "email":"drjkuo@gmail.com",
+   "phoneNumber":"(669) 241-8429",
+   "resume":{
+      "basic":{
+         "website":"https://www.linkedin.com/in/cykuo/",
+         "summary":[
+            "Looking for JavaScript/Frontend Developer position.  Authorized to work in the U.S.",
+            "Experienced with React, Redux, JavaScript, HTML/CSS, AWS EC2, NodeJS, ExpressJS, SQL, Mocha/Chai, and AJAX.  Implemented JavaScript animation to enhance user experience.  Developed frontend interacting with REST API with React and Redux."
+         ],
+         "location":"1188 Tea Rose Cir, San Jose, CA 95131"
+      },
+      "work":[
+         {
+            "company":"Neolife, Fremont, USA",
+            "position":"Web Developer",
+            "website":"",
+            "startDate":"03/2017",
+            "endDate":"Current",
+            "summary":"Develop frontend of the prototype shopping website interacting with REST API by using React and Redux. Refactor existing code and add SVG animation to the official website to improve user experience. Give mini lecture about Github and SourceTree to the design team.  Work closely with engineering team and design team on the execution of ideas and projects"
+         },
+         {
+            "company":"JonesDay, Taipei, Taiwan",
+            "position":"Patent Attorney",
+            "website":"",
+            "startDate":"03/2012",
+            "endDate":"01/2016",
+            "summary":"Conducted patent prosecution for hundreds of cases. Advised clients on patentability of their ideas. Provided infringement and invalidity analysis during litigations in multiple jurisdiction."
+         }
+      ],
+      "projects":[
+         {
+            "title":"Neolife Official Website (Javascript, HTML/CSS, jQuery, Bootstrap, NodeJS, AJAX, CMS)",
+            "link":"http://www.neolife.com/en-us/home/",
+            "frontend":"Added animations to existing official website to improve user experience.  Implemented shopping cart feature using jQuery, Javascript, and HTML to the official website in compliance with existing backend RESTful APIs and content management system."
+         },
+         {
+            "title":"Neolife Experimental Shopping Site (React, Redux, Javascript, HTML/CSS)",
+            "frontend":"Implemented experimental shopping site using React and Redux in compliance with existing CMS."
+         },
+         {
+            "title":"Hot Tweet Viewer  Website (Javascript, HTML/CSS, Twitter API, NodeJS, ExpressJS, Gulp, Mocha, AWS)",
+            "link":[
+               "http://52.41.191.125:3000/v2",
+               "https://github.com/drjkuo/hotTweets"
+            ],
+            "frontend":"Developed AJAX requests to fetch tweets and utilize factory functions to generate widgets.",
+            "backend":"Implemented a NodeJS server that pulls tweets using Twitter APIs and sorts the tweets, and built RESTful APIs in response to AJAX requests from clients.  Deployed the application to AWS EC2."
+         },
+         {
+            "title":"Cross Domain Shopping Website (Javascript, HTML/CSS, RESTful, PHP, MySQL) ",
+            "link":[
+               "http://47.88.28.30/marketplace/",
+               "https://github.com/persephonelu/marketplace"
+            ],
+            "frontend":"Implemented a marketplace pulling product info using backend RESTful APIs from their respective MySQL databases.  Incorporated product review feature and top viewed products."
+         }
+      ],
+      "education":[
+         {
+            "institution":"San Jose State University, USA",
+            "studyType":"M.S., Computer Engineering",
+            "gpa":"3.46/4"
+         },
+         {
+            "institution":"National Taiwan University, Taiwan",
+            "studyType":"M.S., Electrical Engineering",
+            "gpa":"3.62/4"
+         },
+         {
+            "institution":"National Taiwan University, Taiwan",
+            "studyType":"B.S., Electrical Engineering",
+            "gpa":"3.7/4"
+         }
+      ]
+   }
+}
